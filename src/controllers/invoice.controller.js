@@ -75,7 +75,7 @@ return res.send("invoice number already registerd")
 				return res.send(invoice);
 			}
 			else{
-				return res.send({success:false, msg:'Date is not dddacceptable'})
+				return res.send({success:false, msg:'Date is not acceptable'})
 			}
 
 
@@ -90,7 +90,7 @@ return res.send("invoice number already registerd")
 				return res.send(invoice);
 			}
 			else{
-				return res.send({success:false, msg:'Date is not xacceptable'})
+				return res.send({success:false, msg:'Date is not acceptable'})
 			}
 
 
